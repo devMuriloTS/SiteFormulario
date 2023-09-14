@@ -7,7 +7,7 @@ body{
 .divisor{
     margin: 3em;
 }
-.divisor .titulo {
+.divisor .titulo{
     font-size: 2.5em;
     border-top: 3px inset #322030;
     background-color: #d1cece;
@@ -24,9 +24,14 @@ main{
     margin: 3em;
 }
 
+a{
+    text-decoration: none;
+}
+
 .oqform,
 .tipos,
-.inputs{
+.inputs,
+.redes{
     padding: 0.5em;
     border-top: 3px inset #322030;
     border-radius: 15px;
@@ -38,7 +43,16 @@ main{
     text-indent: 1em;
 }
 
-.btn-1 {
+.btn-2{
+    margin-top: 3em;
+}
+
+.fab{
+    color: black;
+}
+.btn-1,
+.btn-2 {
+    color: white;
     border-radius: 8px;
     border: 2px solid #4f436f;
     margin-left: 43em;
@@ -47,7 +61,8 @@ main{
     background: linear-gradient(0deg, #8e898b 0%, #2e3a6e 100%);
     border: none;
   }
-  .btn-1:hover {
+  .btn-1:hover,
+  .btn-2:hover {
      background: #322030;
     background: linear-gradient(0deg, #322030 0%, #d1cece 100%);
   } 
